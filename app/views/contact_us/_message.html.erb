@@ -1,0 +1,43 @@
+<%= form_for(@message, url: contact_us_path) do |f| %>
+   <% if @message.errors.any? %>
+    <div id="error_explanation">
+      <p><%= t('errors.template.body')%></p>
+      <ul>
+      <% @message.errors.full_messages.each do |message| %>
+        <li><%= raw message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="row">
+
+      <div class="small-12 large-6 columns">
+        <%= f.label t('contact.form.name') %>
+        <span class="wpcf7-form-control-wrap your-firstname">
+          <%= f.text_field :name, class: 'wpcf7-form-control wpcf7-text wpcf7-validates-as-required full' %>
+        </span>
+      </div>
+      <div class="small-12 large-6 columns">
+        <%= f.label t('contact.form.email') %>
+        <span class="wpcf7-form-control-wrap your-email">
+                        
+          <%= f.email_field :email, class: 'wpcf7-form-control wpcf7-text wpcf7-validates-as-required full' %>
+        </span>
+      </div>
+      <div class="small-12 columns">
+        <%= f.label t('contact.form.message')%>
+        <span class="wpcf7-form-control-wrap your-message">
+          <%= f.text_area :content, class: 'wpcf7-form-control wpcf7-textarea full' %>
+        </span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 columns">
+        <%= f.submit t('contact.form.send'), class: 'wpcf7-form-control wpcf7-submit btn' %>
+      </div>
+    </div>
+    <div class="wpcf7-response-output wpcf7-display-none">
+                    
+    </div>
+
+<%end%>

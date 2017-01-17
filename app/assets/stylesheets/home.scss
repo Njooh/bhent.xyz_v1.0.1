@@ -1,0 +1,144 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$bhent_black_font: 'BhentDisplay-Black';
+
+/*  Content */
+.thb-autotype .thb-autotype-entry {
+  display: inline-block;
+  font-weight: 600;
+  color: #ea5b11 !important;
+  will-change: contents;
+}
+.slick-dots li.slick-active {
+  background-size: 100% !important;
+  background: -moz-linear-gradient(305deg,#f0710c,#ea5b11,#d3073c) !important;
+  background: -webkit-linear-gradient(305deg,#f0710c,#ea5b11,#d3073c) !important;
+  background: linear-gradient(165deg,#f0710c,#ea5b11,#d3073c) !important;
+}
+
+.thb-iconbox.top.type1 {
+  align-items: center;
+  text-align: left !important;
+}
+.thb-iconbox.top.type1 ul>li {
+  position: relative;
+  list-style: none;
+}
+
+.thb-team-row .thb-team-member .team-information {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  height: 100%;
+  opacity: 0;
+  padding: 30px;
+  background: -moz-linear-gradient(305deg,rgba(240, 113, 12, 0.8),rgba(234, 91, 17, 0.8),rgba(211, 7, 60, 0.8)) !important;
+  background: -webkit-linear-gradient(305deg,rgba(240, 113, 12, 0.8),rgba(234, 91, 17, 0.8),rgba(211, 7, 60, 0.8)) !important;
+  background: linear-gradient(165deg,rgba(240, 113, 12, 0.8),rgba(234, 91, 17, 0.8),rgba(211, 7, 60, 0.8)) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #fff;
+  will-change: opacity;
+}
+
+h1.title-header {
+  font-size: 34px;
+}
+
+// Expertise
+.branding{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_branding.jpg');
+}
+.design{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_design.jpg');
+}
+.websites{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_websites.jpg');
+}
+.digital{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_digital.jpg');
+}
+.marketing{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_marketing.jpg');
+}
+.advertising{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_advertising.jpg');
+}
+.print{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_print.jpg');
+}
+.packaging{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_packaging.jpg');
+}
+
+// Portfolio
+.thb-portfolio aside{
+  text-align: center;
+  font-weight: bold;
+}
+
+.black-white{
+  background-image: image_url('key_visual_black-and-white.jpg');
+}
+.olympic-gaming{
+  background-image: image_url('key_visual_olympic-gaming.jpg');
+}
+.smile{
+  background-image: image_url('key_visual_smile.jpg');
+}
+.bhent{
+  background-image: image_url('key_visual_bhent.jpg');
+}
+.olialima{
+  background-image: image_url('olialima.jpg');
+}
+.bobolo{
+  background-image: image_url('key_visual_bobolo.jpg');
+}
+.nao{
+  background-image: image_url('key_visual_nao.jpg');
+}
+.solim{
+  background-image: image_url('solim.jpg');
+}
+.mahou{
+  background-image: image_url('key_visual_mahou.jpg');
+}
+.lilac{
+  background-image: image_url('key_visual_lilac-travel.jpg');
+}
+.bambou-lounge{
+  background-image: image_url('key_visual_bambou-lounge.jpg');
+}
+.iletelle-mode{
+  background-image: image_url('Parce-que-sa-vision-de-la-mode-c-est-un-club-pas-un-vetement.jpg');
+}
+.la-maison-du-cafe{
+  background-image: image_url('key_visual_mdc.jpg');
+}
+.le-bois-sainte-anastasie{
+  background-image: image_url('bois-sainte-anastasie.jpg');
+}
+.express-informatique{
+  background-image: image_url('marquesok.jpg');
+}
+.makkrol{
+  background-image: image_url('CYBER-SECURITY-2.jpg');
+}
+
+.synopsis{
+  padding-top: 40px;
+  background-color: rgba(232, 232, 232, 0.2);
+}

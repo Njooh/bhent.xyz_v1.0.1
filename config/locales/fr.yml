@@ -1,0 +1,303 @@
+  fr:
+    layouts:
+      title:      "Agence de Branding & Marketing"
+      shared:
+        footer:
+          address:        "Notre adresse"
+          address_street:    "Rue N2 - Odza (Mbog-Abang)."
+          address_box:    "BP. 1452"
+          address_town:    "Yaoundé - Cameroun."
+          intouch:        "Contactez-nous"
+          navigate:       "Plan du site"
+          follow:         "Suivez-nous"
+          copyright:         "Copyright"
+          copyright_allright:         "Tous droits réservés."
+
+    home:
+      index:
+        welcome:      "Enjoy Branding™"
+        stable:     "Nous sommes une agence de branding & marketing."
+        stable2:     "Nous emmenons de nouvelles marques à la vie et insufflons une nouvelle vie en celles qui existent déjà"
+        stable3:     "en créant "
+        corporate_identities:     "des identités d'entreprise"
+        logos:     "des logos"
+        brand_design:  "des designs de marque"
+        interiors:  "des designs d'intérieur"
+        corporate_communications:  "des communications d'entreprise"
+        marketing_campaigns:  " des campagnes de marketing"
+        website:  "des sites web"
+        mobile_application:  "des applications mobiles"
+        synopsis:     "Synopsis"
+        synopsis1:    "Avec un aperçu de l'image de marque à notre noyau, nous sommes habiles à
+                       mettre en œuvre notre travail à travers un large éventail de points de contact de la marque."
+        synopsis3:    "De la papeterie professionnelle d’entreprise et des communications, "
+        synopsis4:    "au marketing efficace et de la publicité jusqu'à l'engagement des applications numériques."
+        branding_design:    "Branding & Design"
+        websites_digital:    "Sites Web & Digital"
+        marketing_advertising:    "Marketing & Publicité"
+        print_packaging:    "Impression & Packaging"
+        view_expertise:      "Voir Expertise →"
+        ceo: "Directeur Général"
+        cto: "Directeur Technique"
+        am: "Gestionnaire de compte"
+        photographer: "Photographe"
+
+    nav_bottom:
+      index:
+        p_page: "Page Précédente (p)"
+        n_page: "Page Suivante (n)"
+        p_project: "Projet Précédent (p)"
+        n_project: "Projet Suivant (n)"
+
+
+
+    expertise:
+      index:
+        expertise_title:   "Expertise"
+        expertise_p1:   "Notre modus operandi utilise une procédure éprouvée pour chaque projet,
+                         quel que soit le secteur de l'industrie pour lequel nous concevons."
+        expertise_p2:   "Nous nous référons à cette «méthodologie» de Bhent qui prospère sur la collaboration
+                         entre nous et nos clients. Cela influence, forme et détermine le résultat final correct du projet,
+                         assurant des résultats dynamiques."
+        expertise_research:   "1. Recherche"
+        expertise_research_content:    "Nous posons les bonnes questions et écoutons attentivement les réponses.
+                                        La recherche est essentielle pour nous assurer de bien comprendre votre public,
+                                        votre entreprise et votre industrie. Nous prenons les mesures nécessaires pour clarifier
+                                        votre vision, vos stratégies, vos valeurs et vos objectifs. Nous distillons ensuite ces idées
+                                        et présentons les résultats."
+        expertise_research_item:
+          item_1: "Ateliers de marque"
+          item_2: "Groupes de discussion"
+          item_3: "Interviews"
+          item_4: "Questionnaires Marque"
+          item_5: "Enquêtes"
+          item_6: "Analyse de la concurrence"
+          item_7: "Audits de la marque"
+          item_8: "Analyse de l'industrie et tendances"
+          item_9: "Catégorie Commentaires"
+        expertise_strategy:  "2. Stratégie"
+        expertise_strategy_content:  "Nous articulons une nouvelle stratégie de marque basée sur des connaissances factuelles
+                                      et une compréhension intuitive astucieuse, comprenant la messagerie de la marque,
+                                      le ton de la voix, ainsi que des stimuli visuels pertinents pour indiquer l'essence de la
+                                      marque proposée."
+        expertise_strategy_item:
+          item_1: "Positionnement de la marque"
+          item_2: "Architecture de la marque"
+          item_3: "Messagerie de marque"
+          item_4: "Essence de la marque"
+          item_5: "Les valeurs de la marque"
+          item_6: "Stratégie Digitale"
+        expertise_design:  "3. Design conceptuel"
+        expertise_design_content:  "Nous pensons conceptuellement sur des moyens efficaces de communiquer votre entreprise.
+                                    Nous ne présentons que des idées qui sont sûres de résonner efficacement avec votre auditoire.
+                                    Nous appliquons nos concepts à des maquettes de produits clés du projet, vous permettant de
+                                    visualiser notre travail dans le contexte. Ensemble, nous déterminons une direction
+                                    visuelle préférée avant de développer davantage et affiner le concept choisi."
+        expertise_design_item:
+          item_1: "Appellation"
+          item_2: "Messagerie & Copywriting"
+          item_3: "Identités d'entreprise"
+          item_4: "Création de logo"
+        expertise_application:  "4. Application"
+        expertise_application_content:   "Une fois approuvés, nous avons décidé d'appliquer la conception aux livrables du projet convenus.
+                                          Nous sommes aptes à l'élaboration de la communication de marque cohérente et cohésive,
+                                          à la fois sur et hors ligne, d'impression et d'emballage, le marketing et la publicité
+                                          pour les sites Web et d'autres applications numériques."
+        expertise_application_item:
+          item_1: "Papeterie d'entreprise"
+          item_2: "Communications d'entreprise"
+          item_3: "Emballage"
+          item_4: "Éditorial"
+          item_5: "Campagnes marketing"
+          item_6: "Publicité"
+          item_7: "Matériel d'événement"
+          item_8: "Conception et développement de sites Web"
+          item_9: "Conception et développement d'applications mobiles"
+          item_10: "Bannières en ligne"
+          item_11: "Vidéo"
+        expertise_support:  "5. Support"
+        expertise_support_content:   "L'équipe de Bhent se réjouit de l'opportunité de soutenir vos besoins en marketing d'entreprise.
+                                      Nous agissons comme une extension de votre équipe, fournissant un soutien stratégique précieux,
+                                      la gestion de la campagne, la mise en œuvre et la maintenance. Cette approche personnalisée permet
+                                      à nos clients de travailler avec une équipe dédiée qui comprend votre entreprise et ses besoins
+                                      uniques."
+        expertise_support_item:
+          item_1: "Maintenance des sites Web et des applications mobiles"
+          item_2: "Analyse et reporting"
+          item_3: "Gestion de l'impression"
+          item_4: "Accord retenue"
+          item_5: "Gestion des campagnes"
+        page:
+          t_branding_design: "Branding & Design"
+          t_websites_digital: "Sites Web & Digital"
+          t_marketing_advertising: "Marketing & Publicité"
+          t_print_packaging: "Impression & Packaging"
+          t_branding: "Branding"
+          t_design: "Design"
+          c_branding1: "Le mot marque est largement utilisé, mais souvent mal compris, surtout dans le contexte de la conception.
+                        Une marque peut être le nom donné à un produit ou un service, il peut être ce que beaucoup désignent
+                        incorrectement comme un logo, ou à notre avis un sentiment et une émotion qui est vécue lorsque les gens
+                        pensent à une entreprise spécifique ou de la marchandise. Les entreprises peuvent trouver que leur
+                        identité actuelle ne représente plus qui ils sont, ce qu'ils font ou où ils veulent être."
+          c_branding2: "Le positionnement de la marque, la stratégie de la marque et la vision de la société évoluent inévitablement
+                        au fil du temps et la communication visuelle peut entraîner une croissance dynamique et une rentabilité accrue.
+                        La création d'une identité visuelle qui est conduit par l'intuition et positionné avec précision pour résonner
+                        avec votre auditoire est crucial, permettant aux entreprises d'atteindre un avantage transcendant sur
+                        leur concurrence."
+          c_design1: "Les logos sont certainement un atout fort et symbolique pour toute marque. Dans le même temps,
+                      un logo n'est pas la seule façon de définir une organisation."
+          c_design2: "Le langage visuel, comme les couleurs, les graphiques, l'imagerie, la typographie et le ton de la voix,
+                      tous culminer dans la création d'une identité cohérente et cohésive qui communiquera vos valeurs,
+                      le positionnement et la personnalité."
+          c_design3: "Nous tempérons notre croyance dans le changement avec la conviction qu'il doit être soigneusement géré.
+                      Nous étudions les options. Nous identifions précisément où vous devez aller. Alors, et seulement alors,
+                      nous regardons des manières de vous y rendre."
+          t_websites: "Sites Web"
+          c_websites1: "Une présence en ligne peut souvent être l'outil le plus puissant pour toute entreprise ou organisation."
+          c_websites2: "Les sites Web offrent l'occasion de rendre votre entreprise aussi accessible que possible, permettant aux
+                        clients potentiels d'en apprendre sur votre proposition de marque ainsi que des informations relatives à vos
+                        produits et services."
+          c_websites3: "Un site Web professionnellement conçu, méticuleusement exécuté, utilisera soigneusement le contenu considéré,
+                        l'expérience de l'utilisateur attentive et l'image de marque efficace. La conception et le développement du site Web
+                        sont primordiale dans la poursuite de l'image de marque efficace et du marketing d'excellence."
+          t_digital0: "Digital"
+          t_digital1: "Stratégie en ligne"
+          c_digital1: "Définir votre stratégie de marketing digital par email, mobile, vidéo, web et social, joue un rôle essentiel
+                       dans la poursuite de la réussite de votre entreprise en ligne."
+          c_digital2: "Il s'agit d'un moyen rentable d'interagir régulièrement avec votre marché cible, de construire votre marque
+                       et d'encourager un engagement précieux."
+          t_marketing: "Marketing"
+          c_marketing1: "Chaque entreprise doit comprendre la valeur explosive du marketing efficace.
+                         Un marketing formidable raconte une histoire sur votre entreprise et offre à vos clients une raison d'acheter
+                         chez vous, que chez votre concurrent. Il devrait enchanter la confiance et inspirer la confiance ainsi que
+                         clarifier et démystifier votre proposition d'affaires."
+          c_marketing2: "Le arketing combine un ensemble stratégique d'activités ciblées et planifiées qui aident à promouvoir
+                         votre marque et votre entreprise. Identifier vos clients et développer une stratégie marketing et de
+                         communication sur mesure contribuera à la réussite de votre entreprise."
+          t_advertising: "Publicité"
+          c_advertising1: "La publicité, d'autre part, est une composante ou un sous-ensemble du processus de commercialisation.
+                           La publicité est un moyen de communication moins personnel."
+          c_advertising2: "De la télévision et la radio, impression et publipostage à des panneaux d'affichage, hors de la maison
+                           et de signalisation. La publicité aide à informer ou à influencer les décisions d'achat
+                           auprès d'un public plus large."
+          t_print0: "Impression"
+          t_print1: "L'art de l'impression efficace"
+          c_print1: "Concevoir et produire des médias imprimés efficaces peut être inestimable en soutenant la fonction
+                     marketing de votre entreprise."
+          c_print2: "Les qualités physiques, tangibles et tactiles de l'impression fournissent un sentiment de légitimité
+                     et de crédibilité."
+          c_print3: "La papeterie imprimée et les documents de marketing consolident votre identité de marque,
+                     offrant une reconnaissance de marque forte, vous permettant d'atteindre des publics de niche."
+          c_print4: "Les faits parlent d'eux mêmes; Les consommateurs sont beaucoup plus engagés lorsqu'ils lisent des documents
+                     imprimés qu'en ligne."
+          t_packaging0: "Packaging"
+          t_packaging1: "Un emballage genial protège votre marque"
+          c_packaging1: "L'emballage du produit est un point de contact pratique où la clarté et la simplicité sont primordiales.
+                         La combinaison d'une innovation structurelle, d'une spécification de substrat scrupuleux et d'un design
+                         graphique exceptionnel sont essentielle à l'élaboration de grands emballages."
+          c_packaging2: "L'originalité, le caractère et la mémorisation sont également fondamentaux pour créer des emballages
+                         qui finiront par produire un impact impressionnant sur les étagères. Cela permettra de générer des ventes
+                         de produits, même dans les catégories de produits les plus compétitives."
+
+    about:
+      index:
+        about_title:   "À propos"
+        content_p1:   "Bhent a ouvert ses portes comme une agence web en 2014, après plusieurs expériences dans le digital,
+                       le design et le marketing, en collaboration avec quelques-unes des marques les plus prestigieuses au Cameroun
+                       et au nom d'autres organismes de premier plan."
+        content_p2:   "En mai 2016 le point tournant, Bhent devient une agence de branding et marketing."
+        content_p3:   "Notre mélange de stratégie et de créativité se traduit par des résultats dynamiques qui aident à soutenir
+                       la croissance future des activités de nos clients. Tout ce que nous accomplissons est livré à plusieurs
+                       reprises efficacement par l'engagement, la sincérité et le professionnalisme inconditionnel."
+        team_title:   "L'équipe"
+        team_content_p1:   "Le collectif créatif de Bhent rassemble bien plus que de grands talents."
+        team_content_p2:   "La culture de l'Agence est d'une importance primordiale. Par conséquent à Bhent vous bénéficierez
+                            de notre équipe de gens créatifs accomplis, logiquement doués, authentiques, qui sont tous passionés
+                            dans leur quête pour la perfection des créations."
+        team_content_p3:   "Nous n'avons pas le temps des prétentieux, des dominateurs, prima donna.
+                            Nous respectons nos clients, les uns comme les autres, ainsi que nous-mêmes."
+        team_content_p4:   "Nous nous développons dans notre environnement énergique et collaboratif -
+                            nous croyons que cela donne la haute qualité et la cohérence du travail pour lequel nous devenons célèbres."
+        team_content_p5:   "Tout simplement; travail remarquable, réalisé par une équipe de gens authentiques."
+        office_map:  "Voir l'itinéraire"
+
+    portfolio:
+      index:
+        title_portfolio: "Porfolio"
+        view_full_portfolio:  "Voir le portfolio complet →"
+        categiries_portfolio1:      "Re-branding, branding d'événements, site Web et marketing"
+        categiries_portfolio2:      "Site Web & Marketing"
+        categiries_portfolio3:      "Branding d'événement"
+        categiries_portfolio4:      "Branding de l'agence et stratégie créative"
+        categiries_portfolio5:      "Design extérieure et intérieure"
+        categiries_portfolio6:      "Branding Corporate, site Web et marketing"
+        categiries_portfolio7:      "Site Web & Design"
+        categiries_portfolio8:      "Site Web et marketing digital"
+        categiries_portfolio9:      "Logo et Branding Corporate"
+        categiries_portfolio10:      "Branding Corporate"
+        categiries_portfolio11:      "Branding, Branding Corporate, stratégie créative, site Web et marketing"
+        works:      "Travaux :"
+        descript_bambou_lounge:      "Snack - Bar - Restaurant"
+        descript_bhent0:      "Nous sommes une agence de branding & marketing."
+        descript_bhent1:      "Nous emmenons de nouvelles marques à la vie et insufflons une nouvelle vie en celles qui existent déjà"
+        descript_black_and_white0:      "Le Black & White est une entreprise de divertissement et de loisirs avec un "
+        descript_black_and_white1:      "Bar-Lounge et un Sports Bar dans la ville de Yaoundé"
+        descript_bobolo0:      "Bobolo est une marque de barres de manioc, dont la mission est de transformer l'image "
+        descript_bobolo1:      "du manioc comme accompagnement, par la transformation et le conditionnement selon des règles de qualité."
+        descript_mdc:      "Café moderne de la pépinière à la tasse."
+        descript_lilac_travel0:      "Lilac Travel est une société de gestion de voyages basée au Canada avec une nouvelle succursale au Cameroun."
+        descript_lilac_travel1:      "Il offre une plate-forme de services de voyages intégrés (ITS) offrant une gamme de services liés aux voyages."
+        descript_mahou0:      "Les bières Mahou sont nées des meilleurs malts, une eau d'excellente qualité,"
+        descript_mahou1:      "un mélange exclusif de houblon et une souche de levure originale."
+        descript_nao:      "Spécialisé dans la location d'appartement, Nao vous fournira un hébergement à votre image."
+        descript_og0:      "Avec plus de 6 salles de jeu au Cameroun,"
+        descript_og1:      "Olympic Gaming est le leader dans l'industrie des jeux de machines."
+        descript_smile:      "Le Smile, un restaurant moderne et spacieux aux couleurs rutilantes."
+        descript_solim:      "Solution immobilière."
+        t_bambou_lounge:      "Bambou Lounge"
+        t_bhent:      "Branding & Marketing Agency."
+        t_black_and_white:      "Black&White"
+        t_bobolo:      "Bobolo"
+        t_mdc:      "La Maison Du Café"
+        t_lilac_travel:      "Lilac Travel"
+        t_mahou:      "Mahou"
+        t_nao:      "Nao"
+        t_og:      "Olympic Gaming"
+        t_smile:      "Smile"
+        t_solim:      "Solim"
+
+
+
+    activerecord:
+      attributes:
+        contact:
+          name:         "Prénom & Nom"
+          email:        "E-mail"
+          content:      "Contenu"
+
+
+    menu:
+      item:
+        home:       "Accueil"
+        portfolio:   "Portfolio"
+        expertise:   "Expertise"
+        blog:         "Blog"
+        about:        "À propos de nous"
+        contact:        "Contactez nous"
+      languages:
+        fr:         "Français (France)"
+        en:         "Anglais (États Unis)"
+    contact:
+      header:         "Contactez nous"
+      sub:
+        header:         "Faites-nous savoir ce que vous avez à l'esprit, et nous vous répondrons dans quelques instants!"
+      form:
+        name:         "Vos Prénom & Nom"
+        email:         "Votre E-mail"
+        message:        "Votre message"
+        send:           "Envoyer le message"
+      message:
+        success:        "Message envoyé !"
+   
+
+    

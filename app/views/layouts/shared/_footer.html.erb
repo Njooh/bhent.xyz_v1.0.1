@@ -1,0 +1,76 @@
+<div class="fixed-footer-container">
+  <!-- Start Footer -->
+  <footer id="footer" class="footer  dark full-width-footer">
+    <div class="row">
+      <div class="small-12 medium-6 large-3 columns">
+        <div id="text-4" class="widget cf widget_text">
+          <div class="textwidget">
+            <%= image_tag('logo_light.png', :class => "logoimg logo-light", :alt => "Bhent Branding Agency") %>
+          </div>
+        </div>
+      </div>
+      <div class="small-12 medium-6 large-3 columns">
+        <div id="text-2" class="widget cf widget_text"><h6><%=t('layouts.shared.footer.address') %></h6>
+          <div class="textwidget">
+            <p>
+              <%=t('layouts.shared.footer.address_street') %><br/>
+              <%=t('layouts.shared.footer.address_box') %><br/>
+              <%=t('layouts.shared.footer.address_town') %>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="small-12 medium-6 large-3 columns">
+        <div id="nav_menu-2" class="widget cf widget_nav_menu">
+          <h6><%= t('layouts.shared.footer.intouch') %> </h6>
+          <div class="menu-secondary-container">
+            <address>
+              <strong>M.</strong>
+              <a href="callto:695-953-666">695-953-666</a> / <a href="callto:652-199-227">652-199-227</a> <br>
+              <strong>E.</strong>
+              <a href="mailto:hello@bhent.xyz">hello@bhent.xyz</a>
+            </address>
+            <h6><%= t('layouts.shared.footer.follow')%></h6>
+            <ul id="menu-secondary-1" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a target="_blank" href="https://www.facebook.com/bhentbranding/">Facebook</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a target="_blank" href="https://twitter.com/bhentbranding/">Twitter</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a target="_blank" href="https://www.instagram.com/bhentbranding/">Instagram</a></li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"><a target="_blank" href="https://www.linkedin.com/company/bhent-ltd/">Linkedin</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="small-12 medium-6 large-3 columns">
+        <div id="text-3" class="widget cf widget_text">
+          <h6><%= t('layouts.shared.footer.navigate') %> </h6>
+          <ul id="menu-secondary-1" class="menu">
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32">
+              <%= link_to t('menu.item.home'), root_path %>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33">
+              <%= link_to t('menu.item.portfolio'), portfolio_path %>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33">
+              <%= link_to t('menu.item.expertise'), expertise_path %>
+            </li>
+            <!--<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34">-->
+              <!--<%= link_to t('menu.item.blog'), blog_path %>-->
+            <!--</li>-->
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35">
+              <%= link_to t('menu.item.about'), about_us_agency_path %>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36">
+              <%= link_to t('menu.item.contact'), contact_us_path %>
+            </li>
+          </ul>
+          <h6><%= t('layouts.shared.footer.copyright')%></h6>
+          <div class="textwidget">
+            <p>&copy; 2017 Bhent. <%= t('layouts.shared.footer.copyright_allright')%></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+</div>
+<!-- End .fixed-footer-container -->

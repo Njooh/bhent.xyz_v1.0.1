@@ -1,0 +1,311 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  layouts:
+    title:      "Branding & Marketing Agency"
+    shared:
+      footer:
+        address:    "Our Address"
+        address_street:    "N2 Street - Odza (Mbog-Abang)."
+        address_box:    "P.O. Box. 1452"
+        address_town:    "Yaounde - Cameroon."
+        intouch:     "Get in touch"
+        navigate:     "navigate"
+        follow:       "Follow Us"
+        copyright:         "Copyright"
+        copyright_allright:         "All rights reserved."
+  home:
+    index:
+      welcome:      "Enjoy Branding™"
+      stable:     "We are a branding & marketing agency."
+      stable2:     "We bring new brands to life & breathe new life into existing ones"
+      stable3:     "by creating"
+      corporate_identities:     "corporate identities"
+      logos:     "logo designs"
+      brand_design:  "brand designs"
+      interiors:  "interior designs"
+      corporate_communications:  "corporate communications"
+      marketing_campaigns:  "marketing campaigns"
+      website:  "websites"
+      mobile_application:  "mobile apps"
+      synopsis:     "Synopsis"
+      synopsis1:    "With insight led branding at our core we are adept at implementing our
+                     work across an extensive array of brand touchpoints."
+      synopsis3:    "From professional corporate stationery & communications, "
+      synopsis4:    "effective marketing & advertising through to engaging digital applications."
+      branding_design:    "Branding & Design"
+      websites_digital:    "Websites & Digital"
+      marketing_advertising:    "Marketing & Advertising"
+      print_packaging:    "Print & Packaging"
+      view_expertise:      "View Expertise →"
+      ceo: "Chief Manager Officer"
+      cto: "Chief Technical Officer"
+      am: "Account Manager"
+      photographer: "Photographer"
+
+  nav_bottom:
+    index:
+      p_page: "Previous Page (p)"
+      n_page: "Next Page (n)"
+      p_project: "Previous Project (p)"
+      n_project: "Next Project (n)"
+
+
+
+  expertise:
+    index:
+      expertise_title:   "Expertise"
+      expertise_p1:   "Our modus operandi utilises a tried & tested procedure for each & every project, regardless of the industry sector for which we are designing."
+      expertise_p2:   "We refer to this as Bhent’s ‘mythodology’ which thrives on collaboration between us & our clients. This influences, shapes & determines the correct final project outcome, ensuring dynamic results."
+      expertise_research:   "1. Research"
+      expertise_research_content:    "We ask the right questions & listen intently to the answers.
+                                      Research is vital to ensure we fully understand your audience,
+                                      your business & your industry. We take the necessary steps to clarify your vision,
+                                      strategies, values & goals. We then distill these insights & present the findings."
+      expertise_research_item:
+        item_1: "Brand Workshops"
+        item_2: "Focus Groups"
+        item_3: "Interviews"
+        item_4: "Brand Questionnaires"
+        item_5: "Surveys"
+        item_6: "Competitor Analysis"
+        item_7: "Brand Audits"
+        item_8: "Industry Analysis & Trends"
+        item_9: "Category Reviews"
+      expertise_strategy:  "2. Strategy"
+      expertise_strategy_content:  "We articulate a newfound brand strategy based on factual insights & shrewd intuitive understanding,
+                                    comprising brand messaging, tone-of-voice, as well as pertinent visual stimuli to indicate the
+                                    proposed brand essence."
+      expertise_strategy_item:
+        item_1: "Brand Positioning"
+        item_2: "Brand Architecture"
+        item_3: "Brand Messaging"
+        item_4: "Brand Essence"
+        item_5: "Brand Values"
+        item_6: "Digital Strategy"
+      expertise_design:  "3. Conceptual Design"
+      expertise_design_content:  "We think conceptually about effective ways to communicate your business. We only present ideas that
+                                  are sure to resonate effectively with your audience. We apply our concepts to mock ups of key project
+                                  deliverables, enabling you to view our work in context. Together we determine a preferred visual
+                                  direction before we further develop & refine the chosen concept."
+      expertise_design_item:
+        item_1: "Naming"
+        item_2: "Messaging & Copywriting"
+        item_3: "Corporate Identities"
+        item_4: "Logo Design"
+      expertise_application:  "4. Application"
+      expertise_application_content:   "Once approved, we set about applying the design to the agreed project deliverables.
+                                        We are adept at crafting consistent & cohesive brand communications, both on & offline,
+                                        from print & packaging, marketing & advertising to websites & other digital applications."
+      expertise_application_item:
+        item_1: "Corporate Stationery"
+        item_2: "Corporate Communications"
+        item_3: "Packaging"
+        item_4: "Editorial"
+        item_5: "Marketing Campaigns"
+        item_6: "Advertising"
+        item_7: "Event Materials"
+        item_8: "Website Design & Development"
+        item_9: "Mobile Apps Design & Development"
+        item_10: "Online Banners"
+        item_11: "Video"
+      expertise_support:  "5. Support"
+      expertise_support_content:   "The Bhent team welcome the opportunity to support your ongoing business marketing needs.
+                                    We act as an extension of your team, providing valuable strategic support, campaign management,
+                                    implementation & maintenance. This personalised approach enables our clients to benefit from working
+                                    alongside a dedicated team who understand your business and its unique requirements."
+      expertise_support_item:
+        item_1: "Website & Mobile Apps Maintenance"
+        item_2: "Analytics & Reporting"
+        item_3: "Print Management"
+        item_4: "Retainer Agreement"
+        item_5: "Campaign Management"
+      page:
+        t_branding_design: "Branding & Design"
+        t_websites_digital: "Websites & Digital"
+        t_marketing_advertising: "Marketing & Advertising"
+        t_print_packaging: "Print & Packaging"
+        t_branding: "Branding"
+        t_design: "Design"
+        c_branding1: "The word Brand is widely used but often misunderstood, especially in the context of design.
+                      A brand can be the name given to a product or service, it can be what many refer to incorrectly as a logo,
+                      or in our opinion a feeling & emotion that is experienced when people think of a specific company or commodity.
+                      Companies can find that their current identity no longer represents who they are, what they do,
+                      or where they want to be."
+        c_branding2: "Brand positioning, brand strategy and company vision inevitably evolves over time & communicating
+                      this visually can result in dynamic growth & an increased profitability. Crafting a visual identity
+                      that is led by insight & positioned accurately to resonate with your audience is crucial, enabling companies
+                      to achieve a transcendent advantage over their competition."
+        c_design1: "Logos are certainly a strong, symbolic asset for any brand. At the same time,
+                    a logo isn’t the only way to define an organisation."
+        c_design2: "Visual language, such as colours, graphics, imagery, typography & tone-of-voice all culminate in
+                    creating a consistent and cohesive identity that will communicate your values, positioning and personality."
+        c_design3: "We temper our belief in change with a conviction that it must be carefully managed. We study the options.
+                    We identify precisely where you need to go. Then, and only then, do we look at ways of getting you there."
+        t_websites: "Websites"
+        c_websites1: "An online presence can often be the most powerful tool for any business or organisation."
+        c_websites2: "Websites provide an opportunity to make your business as accessible as possible, enabling prospective
+                      customers to learn about your brand proposition as well as information relating to your products and services."
+        c_websites3: "A professionally designed, meticulously executed website, will utilise carefully considered content,
+                      attentive user experience & effective branding. Website design & development is paramount in the pursuit
+                      of effective branding & marketing excellence."
+        t_digital0: "Digital"
+        t_digital1: "Online Strategy"
+        c_digital1: "Defining your digital marketing strategy across email, mobile, video, web & social, plays
+                     an integral role in continuing to drive the success of your business online."
+        c_digital2: "It is a cost effective way to regularly interact with your target market, to build your
+                     brand & encourage valuable engagement."
+        t_marketing: "Marketing"
+        c_marketing1: "Every business needs to understand the explosive value of effective marketing.
+                       Great marketing tells a story about your business and offers your customers a reason to purchase from you,
+                       over your competition. It should enthral trust & inspire confidence as well as
+                       clarify & demystify your business proposition."
+        c_marketing2: "Marketing combines a strategic mix of targeted & planned activities that help promote your brand & your business.
+                       Identifying your customers & developing a tailored marketing & communication strategy will contribute
+                       to driving the success of your business."
+        t_advertising: "Advertising"
+        c_advertising1: "Advertising, on the other hand is a single component or subset of the marketing process.
+                         Advertising is a less personal means of communication."
+        c_advertising2: "From TV & radio, print & direct mail to billboards, out-of-home & signage.
+                         Advertising helps to inform or influence purchasing decisions to a wider audience."
+        t_print0: "Print"
+        t_print1: "The Art Of Effective Print"
+        c_print1: "Designing & producing effective printed media can be invaluable in supporting the marketing
+                   function of your business."
+        c_print2: "The physical, tangible, tactile qualities of print provide a sense of legitimacy & credibility."
+        c_print3: "Printed stationery & marketing materials solidify your brand identity,
+                   offering strong brand recognition, enabling you to reach niche audiences."
+        c_print4: "The facts speak for themselves; consumers are considerably more engaged when reading printed materials than online."
+        t_packaging0: "Packaging"
+        t_packaging1: "Great packaging protects your brand"
+        c_packaging1: "Product packaging is a practical brand touch-point where clarity & simplicity is paramount.
+                       The combination of structural innovation, scrupulous substrate specification & outstanding
+                       graphic design is critical to crafting great packaging."
+        c_packaging2: "Originality, character & memorability are also fundamental to creating packaging that will ultimately result
+                       in impressive shelf impact. This will drive product sales, in even the most competitive of product categories."
+
+  about:
+    index:
+      about_title:   "About"
+      content_p1:   "Bhent opened its doors as a web agency in 2014,
+                     after several experiences in digital, design and marketing,
+                     working alongside some of the most prestigious brands in Cameroon and on behalf of
+                     other leading agencies."
+      content_p2:   "In May 2016 is the turning point, Bhent becomes a branding & marketing agency."
+      content_p3:   "Our blend of strategy & creativity results in dynamic outcomes that assist in
+                     supporting the future growth of our clients’ businesses. Everything we achieve is
+                     repeatedly delivered efficiently through commitment, sincerity & unconditional professionalism."
+      team_title:   "The team"
+      team_content_p1:   "The creative Bhent collective brings together far more than just great talent."
+      team_content_p2:   "Agency culture is of paramount importance. Therefore at Fable&Co.
+                          you will benefit from our team of creatively accomplished, logically gifted, genuine folk,
+                          who are all obsessive in their quest for design perfection."
+      team_content_p3:   "We have no time for pretentious, overbearing, prima donna.
+                          We respect our clients, each other, as well as ourselves."
+      team_content_p4:   "We thrive in our energetic, collaborative environment –
+                          we believe this yields the high quality & consistency of work for which we are becoming renowned."
+      team_content_p5:   "Quite simply; outstanding work, crafted by a team of genuine folk."
+      office_map:  "Get directions"
+
+  portfolio:
+    index:
+      title_portfolio: "Porfolio"
+      view_full_portfolio:  "View Full Portfolio →"
+      categiries_portfolio1:      "Re-Branding, Event Branding, Website & Marketing"
+      categiries_portfolio2:      "Website & Marketing"
+      categiries_portfolio3:      "Event Branding"
+      categiries_portfolio4:      "Agency Branding & Creative Strategy"
+      categiries_portfolio5:      "Exterior & Interior Design"
+      categiries_portfolio6:      "Corporate Branding, Website & Marketing"
+      categiries_portfolio7:      "Website & Design"
+      categiries_portfolio8:      "Website & Marketing Digital"
+      categiries_portfolio9:      "Logo & Corporate Branding"
+      categiries_portfolio10:      "Corporate Branding"
+      categiries_portfolio11:      "Branding, Corporate Branding, Creative Strategy, Website & Marketing"
+      works:      "Works :"
+      descript_bambou_lounge:      "Snack - Bar - Restaurant"
+      descript_bhent0:      "We are a branding & marketing agency."
+      descript_bhent1:      "We bring new brands to life & breathe new life into existing ones"
+      descript_black_and_white0:      "The Black&White is an entertainment and leisure company with a"
+      descript_black_and_white1:      "Bar - Lounge and Sports Bar in the city of Yaoundé."
+      descript_bobolo0:      "Bobolo is a brand of manioc bar, whose mission is to transform the image"
+      descript_bobolo1:      "of cassava as accompaniment, by processing and packaging according to quality rules."
+      descript_mdc:      "Modern coffee from the nursery to the cup."
+      descript_lilac_travel0:      "Lilac Travel is a travel management company based in Canada with a new branch in Cameroon."
+      descript_lilac_travel1:      "He provide an Integrated Travel Service (ITS) platform offering a range of travel related services."
+      descript_mahou0:      "Mahou beers are born from the best malts, a water of excellent quality,"
+      descript_mahou1:      "An exclusive mixture of hops and an original yeast strain."
+      descript_nao:      "Specializing in apartment rental, Nao will provide you with accommodation in your image."
+      descript_og0:      "With more than 06 gamerooms in Cameroon,"
+      descript_og1:      "Olympic Gaming is the leader in the machine games industry."
+      descript_smile:      "The Smile, a modern and spacious restaurant with gleaming colors."
+      descript_solim:      "Real estate solution."
+      t_bambou_lounge:      "Bambou Lounge"
+      t_bhent:      "Branding & Marketing Agency."
+      t_black_and_white:      "Black&White"
+      t_bobolo:      "Bobolo"
+      t_mdc:      "La Maison Du Café"
+      t_lilac_travel:      "Lilac Travel"
+      t_mahou:      "Mahou"
+      t_nao:      "Nao"
+      t_og:      "Olympic Gaming"
+      t_smile:      "Smile"
+      t_solim:      "Solim"
+
+
+
+  activerecord:
+    attributes:
+      contact:
+        name:         "First Name & Last Name"
+        email:        "Email"
+        content:      "Content"
+
+
+  menu:
+    item:
+      home:       "Home"
+      portfolio:   "Portfolio"
+      expertise:   "Expertise"
+      blog:         "Blog"
+      about:        "About Us"
+      contact:        "Contact Us"
+    languages:
+      fr:         "French (France)"
+      en:         "English (United States)"
+  contact:
+    header:         "Contact Us"
+    sub:
+      header:         "Let us know what you have in mind, and we’ll get back to you in an instant!"
+    form:
+      name:         "Your First Name & Last Name"
+      email:         "Your E-mail"
+      message:        "Your Message"
+      send:           "Send Message"
+    message:
+      success:        "Message Sent!"
+
+
+
+    
+
+

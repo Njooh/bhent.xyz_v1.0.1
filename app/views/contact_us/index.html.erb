@@ -1,0 +1,99 @@
+<%= title t('menu.item.contact') %>
+
+<style type="text/css" data-type="vc_shortcodes-custom-css">
+  .vc_custom_1475052850521{
+    padding-top: 10vh !important;
+    padding-bottom: 10vh !important;
+  }
+  .vc_custom_1475053455001{
+    padding-top: 10% !important;
+    padding-right: 15% !important;
+    padding-bottom: 10% !important;
+    padding-left: 15% !important;
+  }
+  .vc_custom_1475053514797{
+    margin-bottom: 50px !important;
+  }
+  .vc_custom_1474478996357{
+    padding-left: 5% !important;
+  }
+  .vc_custom_1474475114956{
+    border-bottom-width: 2px !important;
+    padding-bottom: 30px !important;
+    border-bottom-color: #f4f4f4 !important;
+    border-bottom-style: solid !important;
+  }
+  .vc_custom_1474475137445{
+    border-bottom-width: 2px !important;
+    padding-bottom: 30px !important;
+    border-bottom-color: #f4f4f4 !important;
+    border-bottom-style: solid !important;
+  }
+</style>
+<noscript>
+  <style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style>
+</noscript>
+
+<div class="page page-id-285 page-template-default snap_rows_ thb_row_pagination_off  disable_header_fill-off mm-link-animation-bg-fill color-changing-header- footer-shadow-light thb-borders-off overflow-off wpb-js-composer js-comp-ver-4.12 vc_responsive">
+
+  <%= render "layouts/shared/logo_header_menu" %>
+
+  <div role="main" class="cf">
+    <div class=" post-285 page type-page status-publish hentry">
+      <div class="row wpb_row row-fluid no-row-padding full-width-row no-column-padding row-o-full-height row-o-columns-middle row-o-content-middle row-flex">
+        <div class="wpb_column columns small-12 medium-6 thb-dark-column">
+          <div class="vc_column-inner vc_custom_1475053455001">
+            <div class="wpb_wrapper">
+              <div class="wpb_text_column wpb_content_element">
+                <div class="wpb_wrapper">
+                  <h6><%= t('contact.header')%> </h6>
+                  <h3><strong><%=t('contact.sub.header') %></strong></h3>
+                </div>
+              </div>
+              <% flash.each do |message_type, message| %>
+
+                  <div class="<%=message_type %>" style="text-align: center">
+                    <!--<button class="close-button" data-close>&times;</button>-->
+                    <p><%= t('contact.message.success') %>.</p>
+                  </div>
+
+              <% end %>
+              <div role="form" class="wpcf7" id="wpcf7-f220-p285-o1" lang="en-US" dir="ltr">
+                <div class="screen-reader-response"></div>
+                <%= render 'message' %>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wpb_column columns small-12 medium-6 thb-dark-column">
+          <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16098.943749742202!2d11.530807499999995!3d3.8071094000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbbc9feb3134f26f9!2sBhent+Ltd!5e1!3m2!1sfr!2scm!4v1481824044929" width="700" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio_nav">
+        <div class="row full-width-row nav_bottom">
+          <div class="small-5 columns">
+            <a href="/about-us-agency" class="post_nav_link prev">
+              <div class="inner">
+                <%= image_tag('about_us.jpg', :alt => "Express Informatique") %>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="309.1" height="162.4" viewBox="151.5 346.3 309.1 162.4" enable-background="new 151.47 346.319 309.06 162.356" xml:space="preserve">
+                <path d="M151.5 427.5c0 4.5 2 8.8 5.5 11.7l78.5 65.9c2.9 2.4 6.4 3.6 9.8 3.6 4.4 0 8.7-1.9 11.7-5.5 5.4-6.5 4.6-16.1-1.9-21.5l-45.9-38.5H445.2c8.5 0 15.3-6.8 15.3-15.3 0-8.5-6.8-15.3-15.3-15.3H208.3l46.8-39.2c6.5-5.4 7.3-15.1 1.9-21.5 -5.4-6.5-15.1-7.3-21.5-1.9l-78.5 65.9C153.5 418.7 151.5 423 151.5 427.5z"/>
+              </svg>
+              <strong>
+                Previous Page (p)
+              </strong>
+              <span>About Us</span>
+            </a>
+          </div>
+          <%= render "layouts/shared/back" %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End role["main"] -->
+
+</div>

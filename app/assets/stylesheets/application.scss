@@ -1,0 +1,117 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/*
+
+_fonts
+
+*/
+$bhent_regular_font: 'BhentDisplay-Regular';
+$bhent_ultralight_font: 'BhentDisplay-Ultralight';
+$bhent_thin_font: 'BhentDisplay-Thin';
+$bhent_medium_font: 'BhentDisplay-Medium';
+$bhent_black_font: 'BhentDisplay-Black';
+
+* {
+  font-family: $bhent_regular_font, 'Helvetica', 'Arial', sans-serif !important;
+}
+::selection {
+  background: #333333 !important;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #929292;
+  letter-spacing: 0.07em;
+  //text-transform: capitalize;
+}
+a:hover {
+  color: #ea5b11 ;
+}
+
+input[type="submit"]:hover, .button:hover, .btn:hover {
+  border: none !important;
+  background-image: -moz-linear-gradient(305deg,#f0710c,#ea5b11,#d3073c) !important;
+  background-image: -webkit-linear-gradient(305deg,#f0710c,#ea5b11,#d3073c) !important;
+  background-image: linear-gradient(165deg,#f0710c,#ea5b11,#d3073c) !important;
+  color: #fff;
+}
+
+/* Top Bar */
+
+.header .logolink .logoimg {
+    max-height: 48px !important;
+}
+
+// Menu
+.mm-link-animation-bg-fill .thb-mobile-menu a:hover {
+  color: #ea5b11 !important;
+}
+
+// About Us
+.modus p{
+  font-size: 16px;
+  text-align: justify
+}
+.modus ul{
+  font-size: 14px;
+  font-weight: bold
+}
+
+.synopsis-items p{
+  font-size: 16px;
+}
+
+/* Footer */
+.nav_bottom span{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer h6 {
+  color: #1f1f1f;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px !important;
+  margin-top: 24px !important;
+  font-family: $bhent_medium_font, 'Helvetica', 'Arial', sans-serif !important;
+}
+i, cite, em, var, address, dfn {
+  font-style: normal !important;
+}
+.footer {
+  background-size: 100% !important;
+  background-image: -moz-linear-gradient(305deg,#f0710c,#ea5b11,#d3073c) !important;
+  background-image: -webkit-linear-gradient(305deg,#f0710c,#ea5b11,#d3073c) !important;
+  background-image: linear-gradient(165deg,#f0710c,#ea5b11,#d3073c) !important;
+}
+.footer img {
+  height: 90px;
+}
+.footer p {
+  margin-bottom: 1.1em;
+  line-height: 19px;
+}
+.footer .widget ul.menu {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 22px;
+}

@@ -1,0 +1,89 @@
+<!-- Start Mobile Menu -->
+<nav id="mobile-menu" class="dark style1">
+  <a href="#" class="thb-close">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+      <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+        <path d="m18.947 17.15l26.1 25.903"/>
+        <path d="m19.05 43.15l25.902-26.1"/>
+      </g>
+    </svg>
+  </a>
+  <div class="menubg-placeholder"></div>
+  <div class="custom_scroll" id="menu-scroll">
+    <div>
+      <div class="mobile-menu-top">
+        <div class="thb-language-switcher" id="thb_language_selector">
+
+          
+          <% if cookies[:bhent_locale] == "en" %>
+            <%= link_to t('menu.languages.fr'), change_locale_path(:fr)%>
+            <%= link_to t('menu.languages.en'), change_locale_path(:en), class: 'active'  %>
+          <%else%>
+            <%= link_to t('menu.languages.fr'), change_locale_path(:fr), class: 'active' %>
+            <%= link_to t('menu.languages.en'), change_locale_path(:en) %>
+          <%end%>
+
+
+        </div>
+        <ul id="menu-navigation" class="thb-mobile-menu">
+          <li id="menu-item-287" class=" menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-282 current_page_item menu-item-287">
+            <div class="link_container">
+              <div class="link_inner">
+                <%= link_to t('menu.item.home'), root_path, :data => {:content => "Home", :menubg => image_path('chicane_brand_7.jpg')} %>
+              </div>
+            </div>
+          </li>
+          <li id="menu-item-300" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-300">
+            <div class="link_container">
+              <div class="link_inner">
+                <%= link_to t('menu.item.portfolio'), portfolio_path, :data => {:content => "Portfolio", :menubg => image_path('portfolio.jpg')} %>
+              </div>
+            </div>
+          </li>
+          <li id="menu-item-300" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-300">
+            <div class="link_container">
+              <div class="link_inner">
+                <%= link_to t('menu.item.expertise'), expertise_path, :data => {:content => "Expertise", :menubg => image_path('expertise.jpg')} %>
+              </div>
+            </div>
+          </li>
+          <!--<li id="menu-item-30" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-30">-->
+            <!--<div class="link_container">-->
+              <!--<div class="link_inner">-->
+                <!--<%= link_to t('menu.item.blog'), blog_path, :data => {:content => "Blog", :menubg => image_path('thumb_IMG_0018_1024.jpg')} %>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</li>-->
+          <li id="menu-item-204" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-204">
+            <div class="link_container">
+              <div class="link_inner">
+                <%= link_to t('menu.item.about'), about_us_agency_path, :data => {:content => "About Us", :menubg => image_path('about_us.jpg')} %>
+              </div>
+            </div>
+          </li>
+          <li id="menu-item-288" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-288">
+            <div class="link_container">
+              <div class="link_inner">
+                <%= link_to t('menu.item.contact'), contact_us_path, :data => {:content => "Contact", :menubg => image_path('contact_us.jpg')} %>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="mobile-menu-bottom">
+        <ul id="menu-secondary" class="thb-secondary-menu row small-up-2">
+          <li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32 column"><a target="_blank" href="https://www.facebook.com/bhentbranding/">Facebook</a></li>
+          <li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33 column"><a target="_blank" href="https://twitter.com/bhentbranding/">Twitter</a></li>
+          <li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35 column"><a target="_blank" href="https://www.instagram.com/bhentbranding/">Instagram</a></li>
+          <li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37 column"><a target="_blank" href="https://www.linkedin.com/company/bhent-ltd/">Linkedin</a></li>
+        </ul>
+        <div class="menu-footer">
+          <div>
+            <p>&copy; 2016 Bhent. <%= t('layouts.shared.footer.copyright_allright')%></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- End Mobile Menu -->
